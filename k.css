@@ -1,0 +1,58 @@
+#div1 {
+	
+	background-color:DodgerBlue;
+	color:white;
+	}
+#div2 {
+	
+	background-color:Tomato;
+	color:white;
+}
+
+#div3 {
+	
+	color:Tomato;
+}
+
+#div4 {
+	
+	color:DodgerBlue;
+}
+
+#div5 {
+	
+	color:MediumSeaGreen;
+}
+
+#div6 {
+	
+	border:tomato 2px solid;
+}
+
+#div7 {
+	
+	border:DodgerBlue 2px solid;
+}
+
+#div8 {
+	
+	border: Violet 2px solid;
+}
+
+#div9 {
+	
+	background-color:rgb(255, 99, 71);
+	
+	}
+	
+#div10 {
+	
+	background-color:#ff6347;
+	
+	}
+	
+#div11 {
+	
+	background-color:hsl(9, 100%, 64%);
+	
+	}
