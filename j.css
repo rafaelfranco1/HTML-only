@@ -1,0 +1,111 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url('OpenSans-Regular.ttf') format('truetype');
+}
+
+body {
+	padding:20px;
+
+}
+
+#div1 {
+	color:red;
+}
+
+.class1 {
+	color:green;
+}
+
+.class2 {
+	background-color:black;
+	color:red;
+
+}
+
+
+
+* {
+	font-family: Arial;
+}
+
+
+
+p, h1 {
+	border-bottom:1px solid red;
+	font-size:30px;
+
+}
+
+#titulo-paragrafo {
+
+	background-color:blue;
+	color:black;
+	Padding:20px;
+	font-family: Tahoma;
+}
+
+.class4 {
+	font-family: Georgia;
+	color:purple;
+	font-weight:1000;
+}
+
+.class5 {
+	font-family: Helvetica;
+	
+	}
+.class6 {
+	font-family:'Courier  New';
+	color:green;
+	color:blue;
+	font-style:italic;
+	color:blue;
+	
+}
+
+.box {
+	width:200px;
+	height:200px;
+	padding:20px;
+	margin:30px;
+	background-color:blue;
+	
+}
+
+.class7 {
+	
+	text-align:center;
+	color:green;
+}
+
+.btn {
+	font-size:50px;
+	background-color:green;
+	width:150px;
+	border:5px solid blue;
+	border-radius:10px;
+	text-decoration:none;
+	padding:12px 7px;
+	
+}
+
+.inline{
+	background-color:blue;
+	width:50px;
+	height:50px;
+	margin:20px;
+	display:block;
+	
+}
+
+.fixo {
+	width:100%;
+	position:fixed;
+	top:0;
+	left:0;
+	text-align:center;
+	background-color:blue;
+	border-bottom:2px solid green;
+	color:white;
+	
+}
