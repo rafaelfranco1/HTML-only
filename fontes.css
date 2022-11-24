@@ -1,0 +1,41 @@
+.family {
+	color:#000;
+	font-size:40px;
+}
+
+.serif {
+	font-family:"times new roman";
+}
+
+.sans-serif  {
+	
+	font-family:arial;
+}
+
+.monospace {
+	
+	font-family:"Courier New";
+}
+
+.family.serif {
+	color:green;
+}
+
+.italic {
+	font-style:italic;
+}
+
+.oblique {
+	
+	font-style:oblique;
+}
+
+.bold {
+	
+	font-weight:bold;
+}
+
+.variant {
+	
+	font-variant:small-caps;
+}
