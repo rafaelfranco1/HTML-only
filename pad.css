@@ -1,0 +1,19 @@
+.div1{
+    width:250px;
+    height:250px;
+    border:5px solid rgb(59, 9, 243);
+    padding: 20px;
+    background-color: greenyellow;
+    font-size:22px;
+    margin-bottom:20px;
+}
+
+.div2{
+    width:250px;
+    height:250px;
+    border:5px solid red;
+    padding: 20px;
+    background-color: dodgerblue;
+    font-size:22px;
+    
+}
