@@ -1,0 +1,30 @@
+.div1 {
+    width:400px;
+    height:400px;
+    background-color:aquamarine;
+    position:static;
+    font-size:40px;
+    padding:20px 0px 0px 50px;
+    border-top:50px solid blue;
+    border-bottom:50px solid blue;
+    border-left:20px solid blue;
+    border-right:20px solid blue;
+    border-radius:30px;
+    display:inline-block;
+    margin-right:50px;
+}
+
+.div2 {
+    width:400px;
+    height:400px;
+    background-color:aquamarine;
+    position:static;
+    font-size:40px;
+    padding:20px 0px 0px 50px;
+    border-top:50px solid blue;
+    border-bottom:50px solid blue;
+    border-left:20px solid blue;
+    border-right:20px solid blue;
+    border-radius:30px;
+    display:inline-block;
+}
