@@ -1,0 +1,24 @@
+.div1 {
+    width:250px;
+    height:250px;
+    background-color: blue;
+    border-bottom:5px solid red;
+    
+}
+
+.pos {
+    
+    }
+
+    .div2 {
+        width:250px;
+        height:250px;
+        background-color: orange;
+        border-bottom:5px solid yellowgreen;
+        top:50px;
+        left:100px
+    }
+    
+    .pos2 {
+        position:relative;
+        }
