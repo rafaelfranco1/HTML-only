@@ -1,0 +1,21 @@
+body {
+    font-family:'Segoe UI',Tahoma, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:bisque;
+    margin-bottom:500px;
+}
+
+#static {
+    width: 80%;
+    height:200px;
+    position:static;
+    background-color:rgba(255,0,0,.3);
+}
+
+#relative {
+    width:80%;
+    height:200px;
+    position:relative;
+    background-color:rgba(0,255,0,0.3);
+    left:30px;
+    top:50px;
+}
