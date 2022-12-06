@@ -16,6 +16,16 @@ body {
     height:200px;
     position:relative;
     background-color:rgba(0,255,0,0.3);
-    left:30px;
-    top:50px;
+    left:0px;
+    top:0px;
+}
+
+#absolute {
+    width: 80%;
+    height:179px;
+    position:absolute;
+    background-color:rgba(0,0,255,.2);
+    right:20px;
+    top:30px;
+
 }
