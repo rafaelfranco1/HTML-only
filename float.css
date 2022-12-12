@@ -1,0 +1,13 @@
+.img1 {
+    border:1px solid red;
+    height:500px;
+    width:10px;
+}
+
+.img2 {
+    border:1px solid red;
+    width:10px;
+    width:10px;
+    float:right;
+}
+
