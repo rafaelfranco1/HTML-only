@@ -1,0 +1,22 @@
+.d1 {
+    width:350px;
+    height:350px;
+    background-color: blue;
+    margin-bottom:10px;
+}
+
+.d2 {
+    width:350px;
+    height:350px;
+    background-color: red;
+    top:100px;
+    left:100px;
+    position:relative;
+}
+
+.d3 {
+    width:350px;
+    height:350px;
+    background-color: blue;
+    margin-bottom:10px;
+}
