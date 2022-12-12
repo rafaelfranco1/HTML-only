@@ -1,0 +1,17 @@
+.d1 {
+    width:80px;
+    height:80px;
+    background-color: tomato;
+    text-align:center;
+    font-size:10px;
+    border:1px solid black;
+    float:left;
+}
+
+.fix2 {
+    clear:both;
+}
+
+.fix2 {
+    clear:both;
+}
