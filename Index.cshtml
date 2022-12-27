@@ -1,0 +1,110 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+    Layout = null;
+}
+
+<html>
+    <head>
+
+        <title>Cadastro de Pessoas</title>
+        <link href="~/Content/primeirocss.css" rel="stylesheet" />
+    </head>
+    
+    <body>
+        <style>
+            .cor-azul {
+                color:blue;
+                font-size:25pt;
+                margin:15px;
+                
+            }
+
+            .italico {
+                font-style: italic;
+            }
+
+        </style>
+        <h1>Título da página</h1>
+        <h2 class="cor-azul">Subtitulo</h2>
+        <h3>Subitítulo</h3>
+
+        <p class="cor-azul italico">Minha primeira página HTML</p>
+        <span class="cor-azul">Este é um texto dentro de um span.</span>
+        <div>
+            <input type="text" />
+        </div>
+
+        <div>
+            <input type="radio" name="radio" />Sim
+            <input type="radio" name="radio" />Não
+            <input type="radio" name="radio" />Talvez
+        </div>
+        <div>
+            <input type="checkbox" name="check" />Banana
+            <input type="checkbox" name="check" />Maçã
+            <input type="checkbox" name="check" />Morango
+        </div>
+        <div>
+            <select>
+                <option>Masculino</option>
+                <option>Feminino</option>
+            </select>
+        </div>
+        <div>
+            <textarea></textarea>
+        </div>
+            <input type="range" />
+            <input type="date" />
+            <input type="number" />
+
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+        </ul>
+
+        <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+        </ol>
+    </body>
+
+    <table style="border:solid 1px red;";>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Data de  Nascimento</th>
+                <th>Endereço</th>
+                <th>Sexo</th>
+                <th>Idade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Claudio Prado</td>
+                <td>29/09/1987</td>
+                <td>Rua teste</td>
+                <td>M</td>
+                <td>32</td>
+            </tr>
+            <tr>
+                <td>Fulano</td>
+                <td>01/01/1985</td>
+                <td>Rua teste</td>
+                <td>M</td>
+                <td>35</td>
+            </tr>
+        </tbody>
+        <tfooter>
+            <td colspan="4">Total:</td>
+            <td>67</td>
+
+        </tfooter>
+    </table>
+
+    <a href="www.google.com.br">Ir para o Google</a>
+    <button>Clique aqui</button>
+</html>
