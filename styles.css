@@ -1,10 +1,13 @@
+* {
+	border-sizing:border-box;
+}
 body {
 
 
 	font-family: 'Roboto', sans-serif;
 	font-size:18px;
 	font-weight: bold;
-	border-sizing:border-box;
+	
 
 }
 
@@ -22,6 +25,12 @@ body {
 	
 }
 
+.main-aside h2:hover {
+	color:green;
+	cursor:pointer;
+	
+}
+
 .main-aside ul {
 	list-style: none;
 	text-align:center;
@@ -30,5 +39,42 @@ body {
 
 .main-aside ul a {
 	text-decoration:none;
-	color : black;
+	color : blue;
+}
+
+.main-aside ul a:hover {
+	
+	color : purple;
+}
+
+.main-aside ul a:visited {
+	
+	color : pink;
+}
+
+.main-form {
+	padding-left:20px;
+}
+.box {
+	width:80%;
+	margin:auto;
+}
+.main-form .form-group {
+	padding-bottom:10px;
+}
+
+.main-form .form-group label {
+	display: block;
+}
+
+.main-form .form-group input{
+	padding:10px;
+	width:100%;
+}
+
+.main-form .button {
+	padding:10px;
+	color:white;
+	background-color:blue;
+	border-radius:8px;
 }
