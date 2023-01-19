@@ -1,58 +1,33 @@
-#div1 {
-	
-	background-color:DodgerBlue;
-	color:white;
-	}
-#div2 {
-	
-	background-color:Tomato;
-	color:white;
+body {
+    background-color:beige;
 }
 
-#div3 {
-	
-	color:Tomato;
+.container {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
-#div4 {
-	
-	color:DodgerBlue;
+.bloco1 {
+    background-color: aqua; 
+    width: 230px;   
+    height: 230px; 
+    border-radius:13px;
+    margin-right:10px;
 }
 
-#div5 {
-	
-	color:MediumSeaGreen;
+.bloco2 {
+    background-color: purple; 
+    width: 230px;   
+    height: 230px; 
+    border-radius:13px;
+    margin-right:10px;
 }
 
-#div6 {
-	
-	border:tomato 2px solid;
+.bloco3 {
+    background-color: red; 
+    width: 230px;   
+    height: 230px; 
+    border-radius:13px;
+    
 }
-
-#div7 {
-	
-	border:DodgerBlue 2px solid;
-}
-
-#div8 {
-	
-	border: Violet 2px solid;
-}
-
-#div9 {
-	
-	background-color:rgb(255, 99, 71);
-	
-	}
-	
-#div10 {
-	
-	background-color:#ff6347;
-	
-	}
-	
-#div11 {
-	
-	background-color:hsl(9, 100%, 64%);
-	
-	}
