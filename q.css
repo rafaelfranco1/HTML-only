@@ -1,0 +1,19 @@
+body {
+    font-size:22px;
+    font-family:sans-serif;
+    width: 700px;
+    margin:auto;    
+}
+
+p {
+    line-height: 2;
+}
+
+.c1 {
+    text-align: center;
+   
+}
+
+.c2 {
+    text-align: center;
+}
