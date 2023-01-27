@@ -1,0 +1,54 @@
+body {
+    background-color: #ccc;
+}
+
+.bg {
+   
+   background-image:url('bg-3.jpg');
+   height:700px;
+   width:100%;
+   background-image: contain;
+   background-repeat: no-repeat;
+   background-position: right center;
+   
+}
+
+.he1 {
+    text-align: center;
+    margin-top:250px;
+    color:white;
+
+}
+
+.he1 h1 {
+    text-shadow: 3px 3px 5px black;
+    font-size:66px;
+}
+
+.he1 p {
+
+    font-size:30px;
+}
+
+.container {
+    
+    width: 1200px;
+    margin:auto;
+    background-color: white;
+    margin-bottom: 12px;
+    
+}
+
+.img {
+    margin-bottom:15px;
+}
+.final {
+    margin-top:2px;
+}
+.article {
+    margin-top: 15px;
+    padding:5px;
+    background-color:orange;
+    border-bottom:red;
+    
+}
