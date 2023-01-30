@@ -1,0 +1,19 @@
+.padding {
+    background-color: aqua;
+    width: 500px;
+    height: 500px;
+    padding: 30px; 
+    /*inicialmente  é um quadrado de lado 500px. Depois se torna 
+    um quadrado com lados de 560px pois são adicionados 30 
+    no left e right e 30 no bottom e top*/
+}
+
+.padding2 {
+    background-color: red;
+    width: 500px;
+    height: 500px;
+     
+    /*inicialmente  é um quadrado de lado 500px. Depois se torna 
+    um quadrado com lados de 560px pois são adicionados 30 
+    no left e right e 30 no bottom e top*/
+}
