@@ -1,0 +1,8 @@
+.padding {
+    width: 150px;
+    height:150px;
+    padding: 25px;
+    box-sizing:border-box;
+    background-color: aquamarine;
+    
+}
