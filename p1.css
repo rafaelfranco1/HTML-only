@@ -12,11 +12,13 @@ body {
     text-decoration: none;
     background-color: rgba(1, 1, 1, 0.2);
     color: white;
+    list-style: none;
 }
 
 .link:visited {
     color:white;
     text-decoration: none;
+    list-style: none;
 }
 
 
@@ -26,9 +28,14 @@ body {
     margin-top: 12px;
     margin-top: 12px;
     text-decoration: none;
+    list-style: none;
     border:3px solid white;
     padding:15px;
     color: white;
+}
+
+.l1:hover {
+    background-color: blue;
 }
 
 .l2{
@@ -41,6 +48,9 @@ body {
     color: white;
 }
 
+.l2:hover {
+    background-color: aquamarine;
+}
 .l3{
     display : inline-block;
     margin-left:12px;
@@ -50,6 +60,10 @@ body {
     padding:15px;
     color: white;
     
+}
+
+.l3:hover {
+    background-color: red;
 }
 .img1 {
     background-image: url('bg-3.jpg');
@@ -71,15 +85,21 @@ body {
 
 .logo2 {
     color:white;
-    margin-top:120px;
-    text-align: center;
+    margin-top:35px;
     text-shadow:2px 2px 8px #000000;
+    display:inline-block;
+    text-align: center;
+    margin-left:480px;
+    border:1px solid black;
+    border-bottom: 1px solid white;
+    padding:10px;
+    background-color:rgba(1,1,1,0.2);
     
 }
 
 .img2 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 700px;
     margin:auto;
     background-color:white;
@@ -94,6 +114,7 @@ body {
 }
 .prop1 { 
     margin-top:15px;
+    flex-direction:row;
 }
 
 .prop2 {
