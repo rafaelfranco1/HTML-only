@@ -1,0 +1,72 @@
+body {
+    padding:0;
+    border:0;
+}
+
+.form {
+    width: 1024px;
+    margin:auto;
+    position: relative;
+}
+
+.main {
+    background-color: black;
+    display: inline-block;
+    margin-bottom:25px;
+}
+
+.main ul {
+    position:absolute;
+    display: flex;
+    top:-5px;
+    left:60%;
+    font-family: Tahoma,Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+
+.main a {
+    text-decoration: none;
+    margin-right:10px;
+    text-transform: uppercase;
+    color:white;
+}
+
+.main a:hover {
+    color:green;
+}
+
+.new {
+    text-align: center;
+    font-family: Tahoma,Arial, Helvetica, sans-serif;
+}
+
+.new2 {
+    margin-top: 45px;;
+    text-align: center;
+    font-family: Tahoma,Arial, Helvetica, sans-serif;
+    
+}
+
+.flo {
+    position:relative;
+    top:20px;
+    text-align:center;
+    right:-10%;
+}
+
+.asd {
+    position : relative;
+    top:-20px;
+    letter-spacing: 2px;
+}
+
+.flo1 {
+    float:left;
+    margin-right: 10px;
+    text-align:center;
+}
+
+.asx {
+    position : relative;
+    top:-40px;
+}
