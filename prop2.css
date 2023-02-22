@@ -1,0 +1,124 @@
+* {
+    padding:0;
+    border:0;
+    margin: 0;
+}
+
+body {
+    background-color: #ccc;
+}
+.main {
+    position:relative;
+    background-image: url('bg-3.jpg');
+    height:500px;
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+    
+}
+
+.main ul li a {
+    text-decoration: none;
+    margin-top: 60px;
+}
+.main ul li {
+    display: inline-block;
+    border:1px solid white;
+    padding:15px;
+    text-transform: uppercase;
+    background-color: rgba(1,1,1,0.1);
+    color:white;
+}
+
+.links {
+    margin-left:70%;
+    position:relative;
+    top:20px;
+    
+}
+
+.main ul li a:hover {
+    color:green;
+}
+
+.prop1 {
+    text-align: center;
+    transform: translateY(170%);
+    color:white;
+    text-shadow: 2px 2px #000000;
+    font-size:70px;
+}
+
+.prop2 {
+    display: inline-block;
+    position:relative;
+    transform: translateX(450%);
+    transform: translateY(450%);
+    text-shadow: 2px 2px #000000;
+    padding:15px;
+    color:white;
+    border:1px solid white;
+    background-color:rgba(1,1,1,0.4);
+    left:780px;
+}
+
+.cards {
+    position: relative;
+    width: 950px;
+    height: 230px;
+    margin:auto;
+    background-color: white;
+    margin-left: 450px;
+    margin-top:30px;
+    text-transform: uppercase;
+    
+}
+
+.c1 {
+    float:left;
+    margin-right: 12px;
+    margin-left:12px;
+    position:relative;
+    top:8px;
+}
+
+.c2 {
+    float:left;
+    margin-right: 12px;
+    position:relative;
+    top:8px;
+}
+
+.c3 {
+    float:left;
+    position:relative;
+    top:8px;
+    }
+
+.final {
+    clear:both;
+}
+
+.p1 {
+    padding:10px;
+    background-color:#474A51;
+    color:white;
+}
+
+.final {
+    position: relative;
+    width: 930px;
+    height: 60px;
+    margin:auto;
+    background-color: white;
+    margin-left: 450px;
+    margin-top:30px;
+    padding:10px;
+    
+}
+
+.final h2 {
+    
+    background-color: #ccc;
+}
+
