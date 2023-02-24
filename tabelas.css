@@ -1,0 +1,29 @@
+body {
+    font-family: sans-serif;
+
+}
+
+td {
+    border:1px solid BLUE;
+    text-align: center;
+    padding:10px;
+}
+
+th {
+    background:#bfc361;
+    color:blue;
+    border:1px solid blue;
+    padding:15px;
+}
+
+caption {
+    color:green;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: beige;
+    width:50%;
+    margin:auto;
+}
+
