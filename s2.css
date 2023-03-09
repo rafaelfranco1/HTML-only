@@ -1,0 +1,33 @@
+.body {
+    font-family: 'Open Sans';
+    color:#666;
+    line-height:1.7;
+}
+
+.main-header {
+    position:fixed;
+    left:0;
+    top:0;
+    width: 35%;
+    height: 100%;
+    background-image: url('images/overlay.png'),
+    url('images/bg.jpg');
+    background-position: left top;
+    background-size: auto,cover;
+    text-align: right;
+}
+
+.main-header-title {
+    color:aquamarine;
+}
+
+.main-header-link {
+    color:aquamarine;
+}
+
+.main-content {
+    width: 65%;
+    margin-left: 35%;
+    padding: 124px 54px 72px;
+    box-sizing: border-box;
+}
