@@ -47,6 +47,24 @@ blockquote {
     margin:2em 0 ;
     padding : .5em 0 .5em 1.5em;
 }
+
+code {
+    background: #f7f7f7 ;
+    border-radius:.35em;
+    border:2px solid #efefef;
+    display: block;
+
+}
+
+pre code {
+    display: block;
+}
+
+ul, ol {
+    margin:0;
+    padding:0;
+    
+}
 .main-header {
     position:fixed;
     top:0;
@@ -98,3 +116,114 @@ a:hover {
     transition: color .2s linear;
 }
 
+ul, ol {
+    list-style-position: inside;
+    padding-left:.1em;
+}
+
+li {
+    padding-left:.5em;
+}
+
+.ul-alternate {
+    list-style-type: none;
+}
+
+.ul-alternate li {
+    border-bottom: 1px solid #ccc;
+    margin-left:39%;
+}
+
+.ul-alternate li:last-child {
+    border:0;
+    color:blue;
+}
+
+.ul-icons {
+    list-style-type: none;
+ 
+}
+
+.ul-icons li {
+    display: inline-block;
+    font-size: 2em;
+    color: #49BF9D;
+    margin-left:37%;
+}
+
+.row {
+   width: 50%;
+   
+}
+
+.col-2 {
+    width: 50%;
+    float:left;
+    
+}
+
+.table {
+    clear:both;
+}
+
+.t {
+    clear:both;
+}
+
+.y {
+    clear:both;
+}
+
+.shaka {
+    position:relative;
+    left:40%;
+}
+
+.button-default {
+    background-color: #49BF9D;
+    border: 2px solid #49BF9D;
+    color:white;
+    text-decoration: none;
+    padding:.75em 1.5em;
+    border-radius:5px;
+    
+}
+
+.button-default-stroke {
+    background-color: white;
+    border-color: #efefef;
+    color:inherit;
+}
+
+.button-default-small {
+    font-size: .6em;
+
+}
+
+.button-default-full {
+    
+    display:block;
+    
+    
+}
+
+.esquerda {
+    width: 50%;
+   
+    
+}
+
+.direita {
+    width: 50%;
+    float: left;
+
+    
+}
+
+.p {
+    clear:both;
+}
+
+.direita2 {
+    margin-left: 25%;
+}
