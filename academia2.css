@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/*Zerando o CSS */
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Funda da Tela */
+
+html {
+    width: 100vw;
+    height: 100vh;
+    font-size:62.5%; /*Para usar de forma responsiva*/ 
+    color:black;
+    font-family: 'Lato',sans-serif;
+
+}
+
+body {
+    background:linear-gradient(to bottom, rgba(17,17,17,0.8), 
+    rgba(20,20,20,1));
+    background-image:url('img5.jpg');
+    background-position: center center;
+    background-size:cover;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+}
+
+/* Menu Header NavBar*/
+
+header {
+    width:100%;
+    height: 7vh;
+    background-color:rgba(22,22,22,.0.2);
+    
+}
+
+.menu-content {
+    text-transform:uppercase;
+    height:100%;
+    color:white;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size:1.8rem;
+
+}
+
+.logo {
+    font-size:1.8rem;
+    letter-spacing: 0.4rem;
+    cursor:pointer;
+}
+
+.menu-content .list-itens {
+    display: flex;
+    list-style: none;
+    gap:20px;
+
+
+}
+
+.menu-content .list-itens a {
+    text-decoration: none;
+    padding:1.5rem;
+}
