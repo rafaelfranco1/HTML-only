@@ -1,0 +1,30 @@
+article:nth-child(1) a {
+    color: yellowgreen;
+}
+
+article:nth-child(3) > p {
+    color: olivedrab;
+}
+
+article:nth-child(3) > h3 {
+    color:blue;
+}
+/*Não é para funcionar pois link (neste caso tag a),
+não é filho direto de article*/
+article:nth-child(3) > a {
+    color:fuchsia;
+}
+
+article:nth-child(5) h3 + p {
+    border:5px solid blue;
+    margin-top:50px;
+    color:fuchsia;
+}
+
+article:nth-child(5) h3 + p + p{
+    color:red;
+}
+
+article:nth-child(5) h3 + p + p{
+    color:red;
+}
