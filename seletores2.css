@@ -16,7 +16,7 @@ article:nth-child(3) > a {
 }
 
 article:nth-child(5) h3 + p {
-    border:5px solid blue;
+    border:5px solid orange;
     margin-top:50px;
     color:fuchsia;
 }
@@ -27,4 +27,35 @@ article:nth-child(5) h3 + p + p{
 
 article:nth-child(5) h3 + p + p{
     color:red;
+}
+
+article:nth-child(11) h3 ~ p { /*Todos irmãos depois do h3*/
+    color:orange;
+}
+
+article:not(destaque) {
+    color:orange;
+}
+.destaque {
+    background-color: yellow;
+    color:black /*Sobreescrevendo o not 8*/
+}
+/* Caso seja necessário esta função deixa 
+todos os links falsos com opacidade 
+de .2 , bem forte para ficar bem 
+vísivel ao usuário.
+a [href="#"] {
+    opacity: .2;
+}
+*/
+
+/*esse deixa os links externos , no 
+caso que começam com http. Usamo o ^
+para indicar isso 
+a [href^=[http] {
+    color:red;
+} */
+
+a[title] {
+    color:green;
 }
