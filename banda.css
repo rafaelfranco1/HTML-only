@@ -1,0 +1,23 @@
+div {
+    border: 3px solid blue;
+    padding:25px;
+    position:relative;
+}
+
+div:before {
+    content:"texto before"; /*Não é selecionável*/
+    background-color: #ccc;
+}
+
+div:after {
+    content :"COUGLAS";
+    background-color: blue;
+    width: 80px;
+    height: 25px;
+    display: inline-block;
+    position: absolute;
+    bottom:0;
+    right: 50%;
+    
+}
+
