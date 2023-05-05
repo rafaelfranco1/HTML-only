@@ -1,0 +1,53 @@
+html , body {
+  height:100%;
+  margin:0;
+  padding:0;
+}
+
+
+.div1 {
+    width: 150px;
+    height: 50px;
+    background-color:blue;
+    color:yellowgreen;
+    transform: translate(50px,50px);
+      /* Translate - Pode transladar no eixo X
+    ou no eixo Y 
+    Neste caso translateX(50px) , a div vai se mo
+    ver 50px para a direita , ou translateY(50px)
+    a div vai se mover 50px para baixo.;
+    */
+    /*Se usar apenas a palavra translate vai se mover
+    tanto no eixo X como no eixo Y .; */
+    /*No translate(50%,50%), vai se mover exatamente
+    50 por cento para os dois lados */
+}
+
+.div2 {
+    width: 150px;
+    height: 50px;
+    background-color: yellowgreen;
+    color:blue;
+}
+
+/* 6 e 41 começando a explicar de position relative , 
+usando a propriedade translate(valor de X (ou valor 
+de X em porcentagem, valor de Y (ou valor de Y em 
+porcentagem) , é sempre movido o valor dentro do 
+que está entre parenteses mesmo que sobreponha o elemento
+em baixo , neste caso é o quadrado azul em cima
+do quadrado verde . */
+
+/*em position relative a porcentagem da largura
+ou da altura é sem do elemento pai */ 
+
+
+.div3 {
+  width:50%;
+  overflow: hidden;
+  border:solid 2px black;
+}
+.div3-interna {
+  background-color:yellow;
+  transform: translate(80%,25px);
+}
