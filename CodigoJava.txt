@@ -1,0 +1,139 @@
+Tenho o seguinte código struts 2 :
+
+Isto na index . JSP  :
+
+	<li><s:url var="LINK3"
+				value="aum" /> <s:a
+				href="%{LINK3}">Select</s:a></li>
+	</ol>
+	
+Redirecionar para a action "aum"
+
+	<action name="aum" class="br.com.projeto.action.Ium" method="display">
+			<result name="none">ium.jsp</result>
+		</action>
+		
+		package br.com.projeto.action;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.opensymphony.xwork2.ActionSupport;
+
+@SuppressWarnings("serial")
+public class Ium extends ActionSupport{
+	
+	private List<String> Engine;
+	private String youSearch;
+	private String youMonth;
+	
+	public List<String> getEngine() {
+		return Engine;
+	}
+
+	public void setEngine(List<String> engine) {
+		Engine = engine;
+	}
+
+	public String getYouSearch() {
+		return youSearch;
+	}
+
+	public void setYouSearch(String youSearch) {
+		this.youSearch = youSearch;
+	}
+
+	public String getYouMonth() {
+		return youMonth;
+	}
+
+	public void setYouMonth(String youMonth) {
+		this.youMonth = youMonth;
+	}
+	
+	public String getDefaulEngine() {
+		return "www.google.com.br";
+	}
+	
+	public Ium() {
+		Engine = new ArrayList<String>();
+		Engine.add("www.facebook.com.br");
+		Engine.add("www.google.com.br");
+		Engine.add("www.youtube.com.br");
+		Engine.add("www.yahoo.com.br");
+		Engine.add("www.ask.com.br");
+	}
+	
+	public String display() {
+		return NONE;
+	}
+
+	@Override
+	public String execute() throws Exception {
+		System.out.println("Executou tag de link A");
+		return "success";
+	}
+}
+
+Vai retornar para o Ium.jsp 
+
+	<s:form action="adois">
+		
+		<h2>
+		<s:select list="Engine" label="Escolha o site" HeaderKey="-1" HeaderValue="Select Search" 
+		name="youSearch" value="Engine"/>
+		
+		
+		<s:select list="#{'1' : 'jan' , '2' : 'fev' , '3' : 'mar'}" label="Digite o mes" Headerkey="-1" HeaderValue="Select Month"
+		name="youMonth" value="2"/>
+		</h2>
+		
+		<s:submit key="submit" name="submit"/>
+	</s:form>
+	
+que por sua vez vai chamar a action a2
+
+<action name="adois" class="br.com.projeto.action.Ium">
+			<result name="success">idois.jsp</result>
+		</action>
+		
+		<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+    <%@ taglib uri="/struts-tags" prefix="s"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link rel="stylesheet" href="styles/styles.css">
+<title>Insert title here</title>
+</head>
+<body>
+	<s:form action="#">
+		
+		<s:property value="youSearch"/>
+		<s:property value="youMonth"/>
+		
+		
+	</s:form>
+</body>
+
+
+Algumas perguntas :
+
+Porque foi  necessário criar um método construtor ?
+
+Porque foi necessáraio cria um método display com return
+none e depois coloca - lo na action com o valor methods ?
+
+Porque foi necessáraio o default engine ?
+ChatGPT
+Vou responder suas perguntas uma por uma:
+
+Por que foi necessário criar um método construtor?
+O método construtor é usado para inicializar a classe Ium. No exemplo fornecido, o construtor é usado para criar uma lista de motores de busca (Engine) com alguns valores predefinidos. Ao criar uma instância da classe Ium, a lista de motores de busca é inicializada com os valores padrão. Isso permite que você tenha uma lista preenchida pronta para uso.
+
+Por que foi necessário criar um método display() com retorno NONE e depois colocá-lo na action com o valor method?
+No Struts 2, quando uma solicitação é feita para uma action, o framework procura por um método específico para executar. Por padrão, ele procura um método chamado execute(). No entanto, você pode configurar o framework para executar outro método da action definindo o atributo method na configuração da action. No exemplo fornecido, o método display() foi criado com retorno NONE e foi configurado como o método a ser executado quando a action aum é chamada. O retorno NONE indica que nenhuma página de resultado específica será renderizada após a execução do método. Portanto, provavelmente o método display() é usado para executar alguma lógica de preparação de dados antes de exibir a página ium.jsp.
+
+Por que foi necessário o default engine?
+O default engine é uma propriedade na classe Ium que retorna o valor padrão para o motor de busca selecionado. No exemplo, o método getDefaulEngine() retorna a string "www.google.com.br" como valor padrão. Essa propriedade pode ser usada para definir um valor predefinido para o campo de seleção youSearch no formulário. Se nenhum valor for selecionado, o valor padrão será usado. É uma maneira de garantir que um valor seja selecionado por padrão se o usuário não fizer uma escolha explícita.
