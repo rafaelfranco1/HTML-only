@@ -1,0 +1,17 @@
+criar dois métodos 
+CheckboxAction
+CheckBoxLinkAction
+
+na check box action
+
+criar boolean checkb
+
+public String display() {
+	return NONE;
+}
+
+action 1 name = checkBox name = "succes" checkbox.jsp
+method = display
+
+action 2 name = inputCheckBox 
+name = "succes" checkbox.jsp
